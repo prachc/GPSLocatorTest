@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPSLocator</string>
+    
+    <string name="caption_title">あなたのロケーションは</string>
+    <string name="caption_latitude">緯度:</string>
+    <string name="caption_longitude">軽度:</string>
+    <string name="caption_refresh">  更新  </string>
+    <string name="caption_provider">プロバイダー:</string>
+    <string name="caption_finish">終了</string>
+    
+    <string name="blank"></string>
+</resources>

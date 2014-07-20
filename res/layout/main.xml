@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		  android:orientation="vertical"
+    		  android:layout_width="fill_parent"
+    		  android:layout_height="fill_parent">
+    		  
+	<TextView  android:id="@+id/caption_title"
+			   android:layout_width="fill_parent" 
+    		   android:layout_height="wrap_content"
+    		   android:textColor="#FF0000"
+    		   android:background="#FFFFFF"
+    		   android:textSize="10pt"  
+    		   android:text="@string/caption_title"/>
+    		   
+    <TextView  android:id="@+id/caption_latitude"
+			   android:layout_width="fill_parent" 
+    		   android:layout_height="wrap_content"
+    		   android:textColor="#006400"
+    		   android:background="#D9D9D9"
+    		   android:textSize="10pt" 
+    		   android:text="@string/caption_latitude"/>
+    		   
+    <TextView  android:id="@+id/textview_latdec"
+			   android:layout_width="fill_parent" 
+    		   android:layout_height="wrap_content"
+    		   android:background="#D9D9D9"
+    		   android:textColor="#000000"
+    		   android:textSize="10pt" 
+    		   android:text="@string/blank"/>
+    		   
+    <TextView  android:id="@+id/textview_latdeg"
+			   android:layout_width="fill_parent" 
+    		   android:layout_height="wrap_content"
+    		   android:background="#D9D9D9"
+    		   android:textColor="#0000ff"
+    		   android:textSize="10pt" 
+    		   android:text="@string/blank"/>
+    		   
+    <TextView  android:id="@+id/caption_longitude"
+			   android:layout_width="fill_parent" 
+    		   android:layout_height="wrap_content"
+    		   android:textColor="#006400"
+    		   android:background="#D9D9D9"
+    		   android:textSize="10pt" 
+    		   android:text="@string/caption_longitude"/>
+    		   
+    <TextView  android:id="@+id/textview_lngdec"
+			   android:layout_width="fill_parent" 
+    		   android:layout_height="wrap_content"
+    		   android:background="#D9D9D9"
+    		   android:textColor="#000000"
+    		   android:textSize="10pt" 
+    		   android:text="@string/blank"/>
+    
+    <TextView  android:id="@+id/textview_lngdeg"
+			   android:layout_width="fill_parent" 
+    		   android:layout_height="wrap_content"
+    		   android:background="#D9D9D9"
+    		   android:textColor="#0000ff"
+    		   android:textSize="10pt" 
+    		   android:text="@string/blank"/>
+    
+ 
+    	<Button	android:id="@+id/button_refresh"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_alignParentRight="true"
+        		android:gravity="center"
+        		android:text="@string/caption_refresh" />
+	<TextView  android:id="@+id/caption_provider"
+			   android:layout_width="fill_parent" 
+    		   android:layout_height="wrap_content"
+    		   android:textColor="#006400"
+    		   android:background="#D9D9D9"
+    		   android:textSize="6pt" 
+    		   android:text="@string/caption_provider"/>
+	<TextView  android:id="@+id/textview_provider"
+			   android:layout_width="fill_parent" 
+    		   android:layout_height="wrap_content"
+    		   android:background="#D9D9D9"
+    		   android:textColor="#000000"
+    		   android:textSize="6pt" 
+    		   android:text="@string/blank"/>
+    <Button	android:id="@+id/button_finish"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_alignParentRight="true"
+        		android:gravity="center"
+        		android:text="@string/caption_finish" />		   
+</LinearLayout>
